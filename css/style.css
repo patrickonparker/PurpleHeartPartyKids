@@ -1,0 +1,65 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.gallery {
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.tabs .indicator {
+  background-color: teal;
+}
+
+.collection .collection-item.avatar .bear {
+  position: absolute;
+  width: 32px;
+  height: 28px;
+  overflow: hidden;
+  left: 15px;
+  top: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.collection .collection-item.avatar .package-title {
+  position: absolute;
+  top: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.top-shadow {
+	box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.3);
+}
+
+.shadow-above {
+	box-shadow: 0 0 6px 0px rgba(0,0,0,0.3);
+}
+
+.paypal-link {
+    font-size: 16px;
+    color: #26a69a;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+    border: 0px;
+    background: transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
