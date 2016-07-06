@@ -23,7 +23,7 @@
                     </a>
                     <ul class="right hide-on-med-and-down">
                         <li>
-                            <a href="#"><font color=black>Contact</font></a>
+                            <a href="#contact"><font color=black>Contact</font></a>
                         </li>
                         <li>
                             <a href="#checkout" class="modal-trigger"><i class="material-icons" style="font-size: 1.5em; color: black;">shopping_cart</i></a>
@@ -32,7 +32,7 @@
                     <ul id="nav-mobile" class="side-nav">
                         <img src="img/profile.jpeg" width=100%>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#contact">Contact</a>
                         </li>
                     </ul>
                     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons" style="color:#616161;">menu</i></a>
@@ -1144,6 +1144,37 @@
                 <a href="javascript:;" onclick="simpleCart.checkout()" class="simpleCart_checkout waves-effect waves-green green-text btn-flat hide-on-small-only"><b>Checkout (<span class="simpleCart_total"></span></b>)</a>
                 <a href="javascript:;" onclick="simpleCart.checkout()" class="simpleCart_checkout waves-effect waves-green green-text btn-flat hide-on-med-and-up left"><b>Checkout (<span class="simpleCart_total"></span></b>)</a>
             </div>
+        </div>
+
+        <!--Contact-->
+        <div id="contact" class="modal bottom-sheet">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <input type="date" class="datepicker">
+                <div class="input-field col s6">
+                  <input placeholder="Placeholder" name="First Name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input name="Last Name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input name="Email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+              <div class="input-field col s12">
+                  <textarea name="Message" class="materialize-textarea"></textarea>
+                <label for="textarea1">Textarea</label>
+              </div>
+            </div>
+            </form>
+          </div>
         </div>
 
         <!--Scripts-->
