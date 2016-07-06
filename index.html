@@ -53,7 +53,7 @@
         </div>
         <div class="section" id="index-banner" style="background-color: #4a148c;">
 
-            <!--INTRO-->
+            <!--BODY-->
             <div class="container">
                 <br>
                 <div class="collection z-depth-1">
@@ -487,7 +487,7 @@
         </div>
         </div>
 
-        <!-- CLOSE MAIN CONTENT, BEGIN FOOTER -->
+        <!--FOOTER-->
         <footer class="page-footer black" style="margin-top: 0px;">
             <div class="container">
                 <div class="row">
@@ -534,7 +534,7 @@
 
         <!--MODALS-->
 
-        <!--REVIEWS-->
+        <!--Reviews-->
         <div id="Reviews" class="modal bottom-sheet" style="max-height: 80%;">
             <div class="modal-content">
                 <div class="container">
@@ -559,7 +559,7 @@
             </div>
         </div>
 
-        <!--MAGIC CASTLE BOUNCE HOUSE-->
+        <!--Magic Castle Bounce House-->
         <div id="mcbh" class="modal bottom-sheet simpleCart_shelfItem" style="max-width:600px; max-height: 100%;">
             <div class="modal-content">
                 <h4 class="item_name">Magic Castle</h4>
@@ -593,7 +593,7 @@
             </div>
         </div>
 
-        <!--PRINCESS CASTLE BOUNCE HOUSE-->
+        <!--Princess Castle Bounce House-->
         <div id="pcbh" class="modal bottom-sheet simpleCart_shelfItem" style="max-width:600px; max-height: 100%;">
             <div class="modal-content">
                 <h4 class="item_name">Princess Castle</h4>
@@ -627,7 +627,7 @@
             </div>
         </div>
 
-        <!--NINJA TURTLES BOUNCE HOUSE-->
+        <!--Ninja Turtles Bounce House-->
         <div id="ntbh" class="modal bottom-sheet simpleCart_shelfItem" style="max-width:600px; max-height: 100%;">
             <div class="modal-content">
                 <h4 class="item_name">Ninja Turtles</h4>
@@ -661,7 +661,7 @@
             </div>
         </div>
 
-        <!--FROZEN BOUNCE HOUSE-->
+        <!--Frozen Bounce House-->
         <div id="dfbh" class="modal modal-fixed-footer bottom-sheet simpleCart_shelfItem" style="max-width:600px; max-height: 100%;">
             <div class="modal-content">
                 <h4 class="item_name">Disney's Frozen</h4>
@@ -899,16 +899,17 @@
             </div>
         </div>
 
-        <!--CHECKOUT-->
+        <!--Checkout-->
         <div id="checkout" class="modal bottom-sheet modal-fixed-footer" style="min-height: 100%;">
             <div class="modal-content">
                 <div class="container">
 
                     <div class="row">
                         <h4 style="margin: 0px;">Checkout</h4>
+                        <p>Please agree to our Policies, Terms &amp; Conditions and Safety Policy before continuing. Pressing 'BACK' will empty the cart and return you to the store.</p>
                     </div>
 
-                    <!--POLICIES-->
+                    <!--Policies-->
                     <div id="policies" class="row">
                         <h5 style="padding-top: 5px;">Policies</h5>
                         <div class="collection z-depth-1">
@@ -957,7 +958,7 @@
                         </div>
                     </div>
 
-                    <!--TERMS-->
+                    <!--Terms-->
                     <div id="terms" class="row">
                         <h5 style="padding-top: 5px;">Term and Conditions</h5>
                         <div class="collection z-depth-1">
@@ -1064,7 +1065,7 @@
                         </div>
                     </div>
 
-                    <!--SAFETY-->
+                    <!--Safety-->
                     <div id="safety" class="row">
                         <h5 style="padding-top: 5px;">Inflatable Safety Policy</h5>
                         <div class="collection z-depth-1">
@@ -1145,12 +1146,12 @@
                 </div>
             </div>
 
-            <!--ACCEPT-->
+            <!--Checkout Toolbar-->
             <div class="modal-footer z-depth-2">
                 <a href="#policies" class="btn-flat waves-effect waves-dark left hide-on-small-only">Policies</a>
                 <a href="#terms" class="btn-flat waves-effect waves-dark left hide-on-small-only">Terms</a>
                 <a href="#safety" class="btn-flat waves-effect waves-dark left hide-on-small-only">Safety</a>
-                <a href="#!" class="modal-action modal-close waves-effect waves-dark btn-flat">Back</a>
+                <a href="#!" class="modal-action modal-close waves-effect waves-dark btn-flat simpleCart_empty">Back</a>
                 <a href="javascript:;" onclick="simpleCart.checkout()" class="simpleCart_checkout waves-effect waves-green green-text btn-flat hide-on-small-only"><b>Checkout (<span class="simpleCart_total"></span></b>)</a>
                 <a href="javascript:;" onclick="simpleCart.checkout()" class="simpleCart_checkout waves-effect waves-green green-text btn-flat hide-on-med-and-up left"><b>Checkout (<span class="simpleCart_total"></span></b>)</a>
             </div>
@@ -1162,12 +1163,12 @@
         <script src="js/init.js"></script>
         <script src="js/simpleCart.min.js"></script>
         <script>
-          simpleCart({
-            checkout: {
-              type: "PayPal",
-              email: "purpleheartpartykids@gmail.com"
-            }
-          });
+            simpleCart({
+                checkout: {
+                    type: "PayPal",
+                    email: "purpleheartpartykids@gmail.com"
+                }
+            });
         </script>
 
     </body>
