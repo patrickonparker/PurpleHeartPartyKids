@@ -282,6 +282,8 @@
                             </li>
                         </ul>
                     </div>
+
+                    <!-- Silver Bear Package -->
                     <div class="collection-item grey lighten-2 top-shadow top-shadow" style="padding-bottom: 3px;" id="sbp">
                         <div class="row" style="margin-bottom:0px;">
                             <div class="col s12">
@@ -291,35 +293,17 @@
                                         <span class="package-title"><b>Silver Bear</b></span>
                                         <br />
                                         <br />
-                                        <a href="#" class="teal dropdown-button btn waves-effect waves-light" style="margin-bottom: 5px;" data-activates="silver-cart">
+                                        <a href="javascript:;" class="teal dropdown-button btn waves-effect waves-light" style="margin-bottom: 5px;" data-activates="silver-cart">
                                             $249.99
                                             <i class="material-icons right hide-on-small-only">shopping_cart</i>
                                         </a>
                                         <ul id='silver-cart' class='dropdown-content'>
-                                            <li class="valign-wrapper">
-                                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" class="valign-wrapper">
-                                                    <input type="hidden" name="cmd" value="_cart">
-                                                    <input type="hidden" name="business" value="AZ2P2JWX96XEN">
-                                                    <input type="hidden" name="lc" value="US">
-                                                    <input type="hidden" name="item_name" value="Silver Bear Package">
-                                                    <input type="hidden" name="item_number" value="SBP">
-                                                    <input type="hidden" name="amount" value="249.99">
-                                                    <input type="hidden" name="currency_code" value="USD">
-                                                    <input type="hidden" name="button_subtype" value="products">
-                                                    <input type="hidden" name="no_note" value="0">
-                                                    <input type="hidden" name="cn" value="Location, date, and time of party.">
-                                                    <input type="hidden" name="no_shipping" value="2">
-                                                    <input type="hidden" name="rm" value="1">
-                                                    <input type="hidden" name="return" value="http://purpleheartpartykids.com/confirmation">
-                                                    <input type="hidden" name="add" value="1">
-                                                    <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHosted">
-                                                    <input type="submit" class="valign paypal-link" src=" https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif " border="0 " name="submit " alt="PayPal - The safer, easier way to pay online!" value="Add to Cart">
-                                                    <img alt=" " border="0 " src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif " width="1 " height="1 ">
-                                                </form>
+                                            <li>
+                                                <a href="javascript:;" onclick='simpleCart.add({ name: "Silver Bear Package", price: 249.99});'>Add to Cart</a>
                                             </li>
                                             <li class="divider"></li>
                                             <li>
-                                                <a href="#!">Reserve with $50 Deposit</a>
+                                                <a href="javascript:;" onclick='simpleCart.add({ name: "Silver Bear Package (Deposit)", price: 49.99});'>Reserve with $50 Deposit</a>
                                             </li>
                                         </ul>
                                         <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
@@ -333,6 +317,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Gold Bear Package -->
                     <div class="collection-item grey lighten-2 top-shadow" style="padding-bottom: 3px;" id="gbp">
                         <div class="row" style="margin-bottom:0px;">
                             <div class="col s12">
@@ -348,11 +334,11 @@
                                         </a>
                                         <ul id='gold-cart' class='dropdown-content'>
                                             <li>
-                                                <a href="#!">Add to Cart</a>
+                                                <a href="javascript:;" onclick='simpleCart.add({ name: "Gold Bear Package", price: 399.99});'>Add to Cart</a>
                                             </li>
                                             <li class="divider"></li>
                                             <li>
-                                                <a href="#!">Reserve with $50 Deposit</a>
+                                                <a href="javascript:;" onclick='simpleCart.add({ name: "Gold Bear Package (Deposit)", price: 49.99});'>Reserve with $50 Deposit</a>
                                             </li>
                                         </ul>
                                         <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
@@ -374,6 +360,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Frozen Package -->
                     <div class="collection-item grey lighten-2 top-shadow" style="padding-bottom: 3px;" id="pp">
                         <div class="row" style="margin-bottom: 0px;">
                             <div class="col s12 l6">
@@ -390,11 +378,11 @@
                                         </a>
                                         <ul id='frozen-cart' class='dropdown-content'>
                                             <li>
-                                                <a href="#!">Add to Cart</a>
+                                                <a href="javascript:;" onclick='simpleCart.add({ name: "Frozen Package", price: 499.99});'>Add to Cart</a>
                                             </li>
                                             <li class="divider"></li>
                                             <li>
-                                                <a href="#!">Reserve with $50 Deposit</a>
+                                                <a href="javascript:;" onclick='simpleCart.add({ name: "Frozen Package (Deposit)", price: 49.99});'>Reserve with $50 Deposit</a>
                                             </li>
                                         </ul>
                                         <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
@@ -425,6 +413,8 @@
                                     <li class="collection-item">Princess Elsa Performer</li>
                                 </ul>
                             </div>
+
+                            <!-- Ninja Turtles Package -->
                             <div class="col s12 l6">
                                 <ul class="collection z-depth-1 collapsible" style="background-color: white;" data-collapsible="accordion">
                                     <img width=100% src="img/turtles.jpg">
@@ -439,11 +429,11 @@
                                         </a>
                                         <ul id='turtles-cart' class='dropdown-content'>
                                             <li>
-                                                <a href="#!">Add to Cart</a>
+                                                <a href="javascript:;" onclick='simpleCart.add({ name: "Ninja Turtles Package", price: 499.99});'>Add to Cart</a>
                                             </li>
                                             <li class="divider"></li>
                                             <li>
-                                                <a href="#!">Reserve with $50 Deposit</a>
+                                                <a href="javascript:;" onclick='simpleCart.add({ name: "Ninja Turtles Package (Deposit)", price: 49.99});'>Reserve with $50 Deposit</a>
                                             </li>
                                         </ul>
                                         <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
@@ -478,12 +468,11 @@
                     </div>
                 </div>
             </div>
-
-            <!-- CLOSE MAIN CONTENT, BEGIN FOOTER -->
             <br />
         </div>
         </div>
 
+        <!-- CLOSE MAIN CONTENT, BEGIN FOOTER -->
         <footer class="page-footer black" style="margin-top: 0px;">
             <div class="container">
                 <div class="row">
@@ -556,21 +545,25 @@
         </div>
 
         <!--MAGIC CASTLE BOUNCE HOUSE-->
-        <div id="mcbh" class="modal bottom-sheet" style="max-width:600px; max-height: 80%;">
+        <div id="mcbh" class="modal bottom-sheet simpleCart_shelfItem" style="max-width:600px; max-height: 100%;">
             <div class="modal-content">
-                <h4>Magic Castle</h4>
+                <h4 class="item_name">Magic Castle</h4>
                 <div class="collection z-depth-1">
                     <div class="collection-item">
                         <div class="row no-pad" style="margin: 0px;">
                             <div class="col s12 m6">
-                                <img style="width: 100%; float: left;" src="img/MCBH.jpg">
+                                <img class="item_image" style="width: 100%; float: left;" src="img/MCBH.jpg">
                             </div>
                             <div class="col s12 m6">
-                                <p>13' x 13'</p>
+                                <p>13' x 13'
+                                    <span class="item_price right green-text"><b>$99.99</b></span>
+                                </p>
                                 <p>The Heavy Duty Commercial Vinyl Castle theme is a best seller in Blast Zone's residential and commercial lines, and is appealing to both boys and girls of all ages.</p>
-                                <a href="#" class="teal chip hide-on-small-only">
+
+                                <a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add chip teal hide-on-small-only">
                                     <span style="color: white; margin: 0;">
-                                        <i class="material-icons">shopping_cart</i> $99.99
+                                        <i class="material-icons">shopping_cart</i>
+                                        Add to Cart
                                     </span>
                                 </a>
                             </div>
@@ -579,29 +572,33 @@
                 </div>
             </div>
             <div class="modal-footer hide-on-med-and-up z-depth-2">
-                <a href="#" class="teal-text modal-action btn-flat left">
-                    <i class="material-icons right" style="margin-left: 5px; line-height: 1.9em;">shopping_cart</i>$99.99
+                <a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add teal-text modal-action btn-flat left">
+                    <i class="material-icons right" style="margin-left: 5px; line-height: 1.9em;">shopping_cart</i>Add to Cart
                 </a>
                 <a href="#!" class="modal-action modal-close waves-effect waves-dark btn-flat">close</a>
             </div>
         </div>
 
         <!--PRINCESS CASTLE BOUNCE HOUSE-->
-        <div id="pcbh" class="modal bottom-sheet" style="max-width:600px; max-height: 80%;">
+        <div id="pcbh" class="modal bottom-sheet simpleCart_shelfItem" style="max-width:600px; max-height: 100%;">
             <div class="modal-content">
-                <h4>Princess Castle</h4>
+                <h4 class="item_name">Princess Castle</h4>
                 <div class="collection z-depth-1">
                     <div class="collection-item">
                         <div class="row no-pad" style="margin: 0px;">
                             <div class="col s12 m6">
-                                <img style="width: 100%; float: left;" src="img/PCBH.jpg">
+                                <img class="item_image" style="width: 100%; float: left;" src="img/PCBH.jpg">
                             </div>
                             <div class="col s12 m6">
-                                <p>15' x 15'</p>
+                                <p>15' x 15'
+                                    <span class="item_price right green-text"><b>$149.99</b></span>
+                                </p>
                                 <p>The Heavy Duty Commercial Vinyl Castle theme is a best seller in Blast Zone's residential and commercial lines; a perfect birthday bouncer at an unbeatable value.</p>
-                                <a href="#" class="teal chip hide-on-small-only">
+
+                                <a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add chip teal hide-on-small-only">
                                     <span style="color: white; margin: 0;">
-                                        <i class="material-icons">shopping_cart</i> $149.99
+                                        <i class="material-icons">shopping_cart</i>
+                                        Add to Cart
                                     </span>
                                 </a>
                             </div>
@@ -610,29 +607,33 @@
                 </div>
             </div>
             <div class="modal-footer hide-on-med-and-up z-depth-2">
-                <a href="#" class="teal-text modal-action btn-flat left">
-                    <i class="material-icons right" style="margin-left: 5px; line-height: 1.9em;">shopping_cart</i>$149.99
+                <a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add teal-text modal-action btn-flat left">
+                    <i class="material-icons right" style="margin-left: 5px; line-height: 1.9em;">shopping_cart</i>Add to Cart
                 </a>
                 <a href="#!" class="modal-action modal-close waves-effect waves-dark btn-flat">close</a>
             </div>
         </div>
 
         <!--NINJA TURTLES BOUNCE HOUSE-->
-        <div id="ntbh" class="modal bottom-sheet" style="max-width:600px; max-height: 80%;">
+        <div id="ntbh" class="modal bottom-sheet simpleCart_shelfItem" style="max-width:600px; max-height: 100%;">
             <div class="modal-content">
-                <h4>Ninja Turtles</h4>
+                <h4 class="item_name">Ninja Turtles</h4>
                 <div class="collection z-depth-1">
                     <div class="collection-item">
                         <div class="row no-pad" style="margin: 0px;">
                             <div class="col s12 m6">
-                                <img style="width: 100%; float: left;" src="img/NTBH.jpg">
+                                <img class="item_image" style="width: 100%; float: left;" src="img/NTBH.jpg">
                             </div>
                             <div class="col s12 m6">
-                                <p>15' x 15'</p>
+                                <p>15' x 15'
+                                    <span class="item_price right green-text"><b>$149.99</b></span>
+                                </p>
                                 <p>This large jumper has 360-degree mesh windows, so parents and spectators can have a clear view of all the fun. Made with fire-resistant vinyl for safety and portability.</p>
-                                <a href="#" class="teal chip hide-on-small-only">
+
+                                <a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add chip teal hide-on-small-only">
                                     <span style="color: white; margin: 0;">
-                                        <i class="material-icons">shopping_cart</i> $149.99
+                                        <i class="material-icons">shopping_cart</i>
+                                        Add to Cart
                                     </span>
                                 </a>
                             </div>
@@ -641,29 +642,33 @@
                 </div>
             </div>
             <div class="modal-footer hide-on-med-and-up z-depth-2">
-                <a href="#" class="teal-text modal-action btn-flat left">
-                    <i class="material-icons right" style="margin-left: 5px; line-height: 1.9em;">shopping_cart</i>$149.99
+                <a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add teal-text modal-action btn-flat left">
+                    <i class="material-icons right" style="margin-left: 5px; line-height: 1.9em;">shopping_cart</i>Add to Cart
                 </a>
                 <a href="#!" class="modal-action modal-close waves-effect waves-dark btn-flat">close</a>
             </div>
         </div>
 
         <!--FROZEN BOUNCE HOUSE-->
-        <div id="dfbh" class="modal bottom-sheet" style="max-width:600px; max-height: 100%;">
+        <div id="dfbh" class="modal bottom-sheet simpleCart_shelfItem" style="max-width:600px; max-height: 100%;">
             <div class="modal-content">
-                <h4>Disney's Frozen</h4>
+                <h4 class="item_name">Disney's Frozen</h4>
                 <div class="collection z-depth-1">
                     <div class="collection-item">
                         <div class="row no-pad" style="margin: 0px;">
                             <div class="col s12 m6">
-                                <img style="width: 100%; float: left;" src="img/DFBH.jpg">
+                                <img class="item_image" style="width: 100%; float: left;" src="img/DFBH.jpg">
                             </div>
                             <div class="col s12 m6">
-                                <p>13' x 13'</p>
+                                <p>13' x 13'
+                                    <span class="item_price right green-text"><b>$149.99</b></span>
+                                </p>
                                 <p>This medium jumper has 360-degree mesh windows, so parents and spectators can have a clear view of all the fun. Made with fire-resistant vinyl for safety and portability.</p>
-                                <a href="#" class="teal chip hide-on-small-only">
+
+                                <a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add chip teal hide-on-small-only">
                                     <span style="color: white; margin: 0;">
-                                        <i class="material-icons">shopping_cart</i> $149.99
+                                        <i class="material-icons">shopping_cart</i>
+                                        Add to Cart
                                     </span>
                                 </a>
                             </div>
@@ -672,8 +677,8 @@
                 </div>
             </div>
             <div class="modal-footer hide-on-med-and-up z-depth-2">
-                <a href="#" class="teal-text modal-action btn-flat left">
-                    <i class="material-icons right" style="margin-left: 5px; line-height: 1.9em;">shopping_cart</i>$149.99
+                <a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add teal-text modal-action btn-flat left">
+                    <i class="material-icons right" style="margin-left: 5px; line-height: 1.9em;">shopping_cart</i>Add to Cart
                 </a>
                 <a href="#!" class="modal-action modal-close waves-effect waves-dark btn-flat">close</a>
             </div>
@@ -683,10 +688,12 @@
         <div id="checkout" class="modal bottom-sheet modal-fixed-footer" style="min-height: 100%;">
             <div class="modal-content">
                 <div class="container">
-                    <!--POLICIES-->
+
                     <div class="row">
                         <h4 style="margin: 0px;">Checkout</h4>
                     </div>
+
+                    <!--POLICIES-->
                     <div id="policies" class="row">
                         <h5 style="padding-top: 5px;">Policies</h5>
                         <div class="collection z-depth-1">
@@ -929,7 +936,7 @@
                 <a href="#terms" class="btn-flat waves-effect waves-dark left hide-on-small-only">Terms</a>
                 <a href="#safety" class="btn-flat waves-effect waves-dark left hide-on-small-only">Safety</a>
                 <a href="#!" class="modal-action modal-close waves-effect waves-dark btn-flat">Back</a>
-                <a href="#!" class="modal-action modal-close waves-effect waves-green green-text btn-flat">Agree</a>
+                <a href="#" onclick="simpleCart.checkout()" class="simpleCart_checkout waves-effect waves-green green-text btn-flat"><b>Checkout (<span class="simpleCart_total"></span></b>)</a>
             </div>
         </div>
 
@@ -937,6 +944,15 @@
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js"></script>
         <script src="js/init.js"></script>
+        <script src="js/simpleCart.min.js"></script>
+        <script>
+          simpleCart({
+            checkout: {
+              type: "PayPal",
+              email: "purpleheartpartykids@gmail.com"
+            }
+          });
+        </script>
 
     </body>
 

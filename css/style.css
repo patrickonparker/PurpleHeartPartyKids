@@ -50,20 +50,48 @@
 	box-shadow: 0 0 6px 0px rgba(0,0,0,0.3);
 }
 
-.paypal-link {
-    font-size: 16px;
-    color: #26a69a;
-    display: block;
-    line-height: 22px;
-    padding: 14px 16px;
-    border: 0px;
-    background: transparent;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    width: 100%;
-    height: 100%;
-}
 
-.#PPMinicart {
-    z-index: 1000;
-}
+		.cartHeaders,.totalRow{display:none;}
+		.simpleCart_items{
+			overflow-y:auto;
+			overflow-x:hidden;
+			height:324px;
+			width:243px;
+			margin-bottom:20px;
+		}
+		.itemContainer{
+			clear:both;
+			width:229px;
+			padding:11px 0;
+			font-size:11px;
+		}
+		.itemImage{
+			float:left;
+			width:60px;
+		}
+		.itemName{
+			float:left;
+			width:85px;
+		}
+		.itemPrice{
+			float:left;
+			width:85px;
+			color:#418932;
+		}
+		.itemQuantity{
+			float:left;
+			width:33px;
+			margin-top:-12px;
+			vertical-align:middle;
+		}
+		.itemQuantity input{
+			width:20px;
+			border:1px solid #ccc;
+			padding:3px 2px;
+		}
+
+		.itemTotal{
+			float:left;
+			color:#c23f26;
+			margin-top:-6px
+		}
