@@ -1,4 +1,5 @@
 /* Custom Stylesheet */
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -7,91 +8,145 @@
  */
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
 
 .icon-block .material-icons {
-	font-size: inherit;
+    font-size: inherit;
 }
 
 .gallery {
-	border-color: white;
-	border-width: 1px;
-	border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .tabs .indicator {
-  background-color: teal;
+    background-color: teal;
 }
 
 .collection .collection-item.avatar .bear {
-  position: absolute;
-  width: 32px;
-  height: 28px;
-  overflow: hidden;
-  left: 15px;
-  top: 12px;
-  display: inline-block;
-  vertical-align: middle;
+    position: absolute;
+    width: 32px;
+    height: 28px;
+    overflow: hidden;
+    left: 15px;
+    top: 12px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .collection .collection-item.avatar .package-title {
-  position: absolute;
-  top: 18px;
-  display: inline-block;
-  vertical-align: middle;
+    position: absolute;
+    top: 18px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .top-shadow {
-	box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.3);
+    box-shadow: inset 0 7px 9px -7px rgba(0, 0, 0, 0.3);
 }
 
 .shadow-above {
-	box-shadow: 0 0 6px 0px rgba(0,0,0,0.3);
+    box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.3);
 }
 
+.cartHeaders, .totalRow {
+    display: none;
+}
 
-		.cartHeaders,.totalRow{display:none;}
-		.simpleCart_items{
-			overflow-y:auto;
-			overflow-x:hidden;
-			height:324px;
-			width:243px;
-			margin-bottom:20px;
-		}
-		.itemContainer{
-			clear:both;
-			width:229px;
-			padding:11px 0;
-			font-size:11px;
-		}
-		.itemImage{
-			float:left;
-			width:60px;
-		}
-		.itemName{
-			float:left;
-			width:85px;
-		}
-		.itemPrice{
-			float:left;
-			width:85px;
-			color:#418932;
-		}
-		.itemQuantity{
-			float:left;
-			width:33px;
-			margin-top:-12px;
-			vertical-align:middle;
-		}
-		.itemQuantity input{
-			width:20px;
-			border:1px solid #ccc;
-			padding:3px 2px;
-		}
+.simpleCart_items {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 324px;
+    width: 243px;
+    margin-bottom: 20px;
+}
 
-		.itemTotal{
-			float:left;
-			color:#c23f26;
-			margin-top:-6px
-		}
+.itemContainer {
+    clear: both;
+    width: 229px;
+    padding: 11px 0;
+    font-size: 11px;
+}
+
+.itemImage {
+    float: left;
+    width: 60px;
+}
+
+.itemName {
+    float: left;
+    width: 85px;
+}
+
+.itemPrice {
+    float: left;
+    width: 85px;
+    color: #418932;
+}
+
+.itemQuantity {
+    float: left;
+    width: 33px;
+    margin-top: -12px;
+    vertical-align: middle;
+}
+
+.itemQuantity input {
+    width: 20px;
+    border: 1px solid #ccc;
+    padding: 3px 2px;
+}
+
+.itemTotal {
+    float: left;
+    color: #c23f26;
+    margin-top: -6px
+}
+
+.comboImg {
+    width: 100%;
+    height: 300px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.doubleLane .comboImg {
+    background-image: url('../img/5in1SuperLaneDoubleComboBounceHouse.png');
+    background-size: contain;
+}
+
+.slide .comboImg {
+    background-image: url('../img/slide.jpg')
+}
+
+.slide .simpleCart_shelfItem, .doubleLane .simpleCart_shelfItem {
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+.seal {
+    background-image: url('../img/insuranceSeal.png');
+    height: 130px;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 600px) {
+    .comboImg {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .seal {
+        background-position: left;
+        margin-top: 1em;
+    }
+}
