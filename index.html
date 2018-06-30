@@ -185,7 +185,7 @@
 							<div class="col s6 m4 l4">
 								<div class="card z-depth-1">
 									<div class="card-content">
-										<h6 style="margin-top: 0px;">Jump &amp; Splash</h6>
+										<h6 style="margin-top: 0px;">Jump &amp; Slide</h6>
 										<div class="card-image">
 											<a href="" data-target="js" class="modal-trigger">
 											<img src="img/slide.jpg">
@@ -200,7 +200,7 @@
 							<div class="col s6 m4 l4">
 								<div class="card z-depth-1">
 									<div class="card-content">
-										<h6 style="margin-top: 0px;">5 in 1</h6>
+										<h6 style="margin-top: 0px;">Double Lane Slide</h6>
 										<div class="card-image">
 											<a href="" data-target="fiveOne" class="modal-trigger">
 											<img src="img/5in1SuperLaneDoubleComboBounceHouse.png">
@@ -336,15 +336,16 @@
 							<div style="width: 100%; height: 250px; background-image: url('img/5in1SuperLaneDoubleComboBounceHouse.png'); background-size: contain; background-position: center center; background-repeat: no-repeat"></div>
 							<li class="collection-item" style="text-align: center;">
 								<a href="#" class="teal dropdown-button btn waves-effect waves-light" style="margin-bottom: 5px;" data-activates="5in1-cart">Starting at $250</a>
-								<ul id='5in1-cart' class='dropdown-content'>
+								<ul id="5in1-cart" class="dropdown-content" style="width: 196px; position: absolute; top: 260px; left: 132.516px; opacity: 1; display: none;">
 									<li>
-										<a href="javascript:;" onclick='simpleCart.add({ name: "5 in 1 Double Lane Splash House, Dry", price: 250});'>$250 Dry</a>
+										<a href="javascript:;" onclick="simpleCart.add({ name: &quot;Double Lane Slide Combo, Dry&quot;, price: 250});">$250 Dry</a>
 									</li>
 									<li class="divider"></li>
 									<li>
-										<a href="javascript:;" onclick='simpleCart.add({ name: "5 in 1 Double Lane Splash House, Wet", price: 350});'>$350 Wet</a>
+										<a href="javascript:;" onclick="simpleCart.add({ name: &quot;Double Lane Slide Combo, Wet&quot;, price: 350});">$350 Wet</a>
 									</li>
 								</ul>
+
 							</li>
 							<li class="collection-item">
 								<span class="package-title">
@@ -364,7 +365,7 @@
 							<div style="width: 100%; height: 250px; background-image: url('img/slide.jpg'); background-size: 50% !important; background-position: center center; background-repeat: no-repeat"></div>
 							<li class="collection-item" style="text-align: center;">
 								<a href="#" class="teal dropdown-button btn waves-effect waves-light" style="margin-bottom: 5px;" data-activates="jumpSlide-cart">Starting at $200
-							</a>
+								</a>
 								<ul id='jumpSlide-cart' class='dropdown-content'>
 									<li>
 										<a href="javascript:;" onclick='simpleCart.add({ name: "Jump and Slide Bounce House, Dry", price: 200});'>$200 Dry</a>
@@ -378,7 +379,7 @@
 							<li class="collection-item">
 								<span class="package-title">
 									<b>Jump &amp; Slide Bounce House</b>
-									<br> The New 5X1 Jump &amp; Splash Combo offers a Bounce House plus Water Slide with a Basketball Hoop on the inside
+									<br> The New 5X1 Jump &amp; Slide Combo offers a Bounce House plus Water Slide with a Basketball Hoop on the inside
 									for a Steph Curry Shooting Challenge! The inflatable is offered in wet/dry meaning you can attach the hose for Hot
 									Summer days or keep things dry for indoor parties!This Slide is in high demand for summer parties so don't wait.
 									BOOK IT NOW PARTY KIDS!
@@ -442,7 +443,7 @@
 										<i class="material-icons">grade</i>
 									</a>
 									</div>
-									<div class="collection-item">Your Choice of Bounce House (Excludes Jump &amp; Splash and Double-Lane Slide Super Combo)</div>
+									<div class="collection-item">Your Choice of Bounce House (Excludes Jump &amp; Slide and Double-Lane Slide Super Combo)</div>
 									<div class="collection-item">Popcorn Machine</div>
 									<div class="collection-item">Sno-Cone Machine</div>
 
@@ -810,7 +811,7 @@
 		<!--Jump & Splash Bounce House-->
 		<div id="js" class="modal bottom-sheet simpleCart_shelfItem" style="max-width:600px; max-height: 100%;">
 			<div class="modal-content">
-				<h4 class="item_name">Jump &amp; Splash</h4>
+				<h4 class="item_name">Jump &amp; Slide</h4>
 				<div class="collection z-depth-1">
 					<div class="collection-item">
 						<div class="row no-pad" style="margin: 0px;">
@@ -823,10 +824,17 @@
 									<b>$199.99</b>
 								</span>
 								</p>
-								<a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add chip teal hide-on-small-only">
-								<span style="color: white; margin: 0;">
-									<i class="material-icons">shopping_cart</i>Add to Cart </span>
-							</a>
+								<a href="#" class="teal dropdown-button btn waves-effect waves-light" style="margin-bottom: 5px;" data-activates="jumpSlide-cart-modal">Starting at $200
+								</a>
+								<ul id='jumpSlide-cart-modal' class='dropdown-content'>
+									<li>
+										<a href="javascript:;" onclick='simpleCart.add({ name: "Jump and Slide Bounce House, Dry", price: 200});'>$200 Dry</a>
+									</li>
+									<li class="divider"></li>
+									<li>
+										<a href="javascript:;" onclick='simpleCart.add({ name: "Jump and Slide Bounce House, Wet", price: 275});'>$275 Wet</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -841,7 +849,7 @@
 		<!--5 in 1 Bounce House-->
 		<div id="fiveOne" class="modal bottom-sheet simpleCart_shelfItem" style="max-width:600px; max-height: 100%;">
 			<div class="modal-content">
-				<h4 class="item_name">5-in-1 Double Lane</h4>
+				<h4 class="item_name">Double Lane Slide</h4>
 				<div class="collection z-depth-1">
 					<div class="collection-item">
 						<div class="row no-pad" style="margin: 0px;">
@@ -854,18 +862,32 @@
 									<b>$249.99</b>
 								</span>
 								</p>
-								<a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add chip teal hide-on-small-only">
-								<span style="color: white; margin: 0;">
-									<i class="material-icons">shopping_cart</i>Add to Cart </span>
-							</a>
+								<a href="#" class="teal dropdown-button btn waves-effect waves-light" style="margin-bottom: 5px;" data-activates="5in1-cart-modal">Starting at $250</a>
+								<ul id='5in1-cart-modal' class='dropdown-content'>
+									<li>
+										<a href="javascript:;" onclick='simpleCart.add({ name: "5 in 1 Double Lane Splash House, Dry", price: 250});'>$250 Dry</a>
+									</li>
+									<li class="divider"></li>
+									<li>
+										<a href="javascript:;" onclick='simpleCart.add({ name: "5 in 1 Double Lane Splash House, Wet", price: 350});'>$350 Wet</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="modal-footer hide-on-med-and-up z-depth-2">
-				<a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add teal-text modal-action btn-flat left">
-				<i class="material-icons right" style="margin-left: 5px; line-height: 1.9em;">shopping_cart</i>Add to Cart </a>
+				<a href="#" class="teal dropdown-button btn waves-effect waves-light" style="margin-bottom: 5px;" data-activates="5in1-cart">Starting at $250</a>
+				<ul id='5in1-cart' class='dropdown-content'>
+					<li>
+						<a href="javascript:;" onclick='simpleCart.add({ name: "5 in 1 Double Lane Splash House, Dry", price: 250});'>$250 Dry</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a href="javascript:;" onclick='simpleCart.add({ name: "5 in 1 Double Lane Splash House, Wet", price: 350});'>$350 Wet</a>
+					</li>
+				</ul>
 				<a href="#!" class="modal-action modal-close waves-effect waves-dark btn-flat">close</a>
 			</div>
 		</div>
@@ -1116,10 +1138,10 @@
 							<div class="collection-item">Upon reservation an agreement will need to be electronically signed or signed upon arrival before the venue is set up.
 							</div>
 							<div class="collection-item">Because of insurance requirements imposed by the state parks service
-								<font color="green">$50</font>will be charged for events held in Michigan state parks.</div>
+								<font color="green">$50</font> will be charged for events held in Michigan state parks.</div>
 							<div class="collection-item">There is a
 								<font color="green">$25.00</font>-
-								<font color="green">$50.00</font>non-refundable deposit which will be credited toward the total balance.</div>
+								<font color="green">$50.00</font> non-refundable deposit which will be credited toward the total balance.</div>
 							<div class="collection-item">We accept Cash, Money Orders and Checks payable to Purple Heart Party Kids LLC as well as Chase Quick Pay and deposits into our Chase Business Account.</div>
 						</div>
 						<div class="collection z-depth-1">
