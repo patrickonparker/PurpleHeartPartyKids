@@ -336,16 +336,15 @@
 							<div style="width: 100%; height: 250px; background-image: url('img/5in1SuperLaneDoubleComboBounceHouse.png'); background-size: contain; background-position: center center; background-repeat: no-repeat"></div>
 							<li class="collection-item" style="text-align: center;">
 								<a href="#" class="teal dropdown-button btn waves-effect waves-light" style="margin-bottom: 5px;" data-activates="5in1-cart">Starting at $250</a>
-								<ul id="5in1-cart" class="dropdown-content" style="width: 196px; position: absolute; top: 260px; left: 132.516px; opacity: 1; display: none;">
+								<ul id='5in1-cart' class='dropdown-content'>
 									<li>
-										<a href="javascript:;" onclick="simpleCart.add({ name: &quot;Double Lane Slide Combo, Dry&quot;, price: 250});">$250 Dry</a>
+										<a href="javascript:;" onclick='simpleCart.add({ name: "5 in 1 Double Lane Splash House, Dry", price: 250});'>$250 Dry</a>
 									</li>
 									<li class="divider"></li>
 									<li>
-										<a href="javascript:;" onclick="simpleCart.add({ name: &quot;Double Lane Slide Combo, Wet&quot;, price: 350});">$350 Wet</a>
+										<a href="javascript:;" onclick='simpleCart.add({ name: "5 in 1 Double Lane Splash House, Wet", price: 350});'>$350 Wet</a>
 									</li>
 								</ul>
-
 							</li>
 							<li class="collection-item">
 								<span class="package-title">
@@ -365,7 +364,7 @@
 							<div style="width: 100%; height: 250px; background-image: url('img/slide.jpg'); background-size: 50% !important; background-position: center center; background-repeat: no-repeat"></div>
 							<li class="collection-item" style="text-align: center;">
 								<a href="#" class="teal dropdown-button btn waves-effect waves-light" style="margin-bottom: 5px;" data-activates="jumpSlide-cart">Starting at $200
-								</a>
+							</a>
 								<ul id='jumpSlide-cart' class='dropdown-content'>
 									<li>
 										<a href="javascript:;" onclick='simpleCart.add({ name: "Jump and Slide Bounce House, Dry", price: 200});'>$200 Dry</a>
@@ -824,17 +823,11 @@
 									<b>$199.99</b>
 								</span>
 								</p>
-								<a href="#" class="teal dropdown-button btn waves-effect waves-light" style="margin-bottom: 5px;" data-activates="jumpSlide-cart-modal">Starting at $200
-								</a>
-								<ul id='jumpSlide-cart-modal' class='dropdown-content'>
-									<li>
-										<a href="javascript:;" onclick='simpleCart.add({ name: "Jump and Slide Bounce House, Dry", price: 200});'>$200 Dry</a>
-									</li>
-									<li class="divider"></li>
-									<li>
-										<a href="javascript:;" onclick='simpleCart.add({ name: "Jump and Slide Bounce House, Wet", price: 275});'>$275 Wet</a>
-									</li>
-								</ul>
+								<p>Dry only at this price.</p>
+								<a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add chip teal hide-on-small-only">
+								<span style="color: white; margin: 0;">
+									<i class="material-icons">shopping_cart</i>Add to Cart </span>
+							</a>
 							</div>
 						</div>
 					</div>
@@ -862,32 +855,19 @@
 									<b>$249.99</b>
 								</span>
 								</p>
-								<a href="#" class="teal dropdown-button btn waves-effect waves-light" style="margin-bottom: 5px;" data-activates="5in1-cart-modal">Starting at $250</a>
-								<ul id='5in1-cart-modal' class='dropdown-content'>
-									<li>
-										<a href="javascript:;" onclick='simpleCart.add({ name: "5 in 1 Double Lane Splash House, Dry", price: 250});'>$250 Dry</a>
-									</li>
-									<li class="divider"></li>
-									<li>
-										<a href="javascript:;" onclick='simpleCart.add({ name: "5 in 1 Double Lane Splash House, Wet", price: 350});'>$350 Wet</a>
-									</li>
-								</ul>
+								<p>Dry only at this price.</p>
+								<a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add chip teal hide-on-small-only">
+								<span style="color: white; margin: 0;">
+									<i class="material-icons">shopping_cart</i>Add to Cart </span>
+							</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="modal-footer hide-on-med-and-up z-depth-2">
-				<a href="#" class="teal dropdown-button btn waves-effect waves-light" style="margin-bottom: 5px;" data-activates="5in1-cart">Starting at $250</a>
-				<ul id='5in1-cart' class='dropdown-content'>
-					<li>
-						<a href="javascript:;" onclick='simpleCart.add({ name: "5 in 1 Double Lane Splash House, Dry", price: 250});'>$250 Dry</a>
-					</li>
-					<li class="divider"></li>
-					<li>
-						<a href="javascript:;" onclick='simpleCart.add({ name: "5 in 1 Double Lane Splash House, Wet", price: 350});'>$350 Wet</a>
-					</li>
-				</ul>
+				<a href="javascript:;" onclick="Materialize.toast('Item Added!', 4000)" class="item_add teal-text modal-action btn-flat left">
+				<i class="material-icons right" style="margin-left: 5px; line-height: 1.9em;">shopping_cart</i>Add to Cart </a>
 				<a href="#!" class="modal-action modal-close waves-effect waves-dark btn-flat">close</a>
 			</div>
 		</div>
